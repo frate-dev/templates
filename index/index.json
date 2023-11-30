@@ -1,8 +1,7 @@
 [
   {
-    "name": "default-executable"
-  },
-  {
-    "name": "default-library"
+    "name": "default-executable",
+    "git": "https://github.com/frate/default-executable.git",
+    "description": "A default executable for C/C++ projects"
   }
 ]
