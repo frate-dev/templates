@@ -1,5 +1,5 @@
 {
   "name": "default-executable",
-  "git": "https://github.com/frate/default-executable.git",
+  "git": "https://github.com/frate-dev/default-executable.git",
   "description": "A default executable for C/C++ projects"
 }
