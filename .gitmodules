@@ -1,0 +1,6 @@
+[submodule "srcs/templates"]
+	path = srcs/templates
+	url = https://github.com/frate-dev/templates.git
+[submodule "srcs/default-executable"]
+	path = srcs/default-executable
+	url = https://github.com/frate-dev/default-executable

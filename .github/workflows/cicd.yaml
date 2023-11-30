@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+name: push-toolchains
+on: 
+  push: 
+    branches:
+      - main
+jobs:
+  generate-toolchhains:
+    runs-on:  ubuntu-latest 
+    strategy:
+      matrix:
+        python-version: [ "3.12"]
+    steps:
+      - name: "setup python"
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{matrix.python-version}}
+      - name: "checkout repo" 
+        uses: actions/checkout@v2.3.4
+      - name: "run script"
+        run: | 
+          ls ${{github.workspace}}
+          cd generator
+          python main.py
+          
+      - name: Release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.TOKEN }}
+          file: ${{github.workspace}}/toolchains.json
+          asset_name: index.json
+          tag: index-${{github.run_number}}
+          overwrite: false
+          prerelease: false
+          make_latest: true
+          release_name: "index-${{github.run_number}}"
+          body: ""
+    
