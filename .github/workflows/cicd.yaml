@@ -27,7 +27,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.TOKEN }}
-          file: ${{github.workspace}}/toolchains.json
+          file: ${{github.workspace}}index/index.json
           asset_name: index.json
           tag: index-${{github.run_number}}
           overwrite: false
