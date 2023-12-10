@@ -9,7 +9,7 @@ for dir in pathlib.Path('../srcs').iterdir():
             print(f"Warning: {file} does not exist")
         with open(file, 'r') as f:
             data = load(f)
-            if not data['git'] or not data['description']:
+            if not data.get('git') or not data.get('description'):
                 print(f"Warning: {file} has missing data")
                 continue
             data['name'] = dir.name
