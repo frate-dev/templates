@@ -1,4 +1,4 @@
 {
-  "git": "https://github.com/frate-dev/default-executable.git",
+  "git": "https://github.com/frate-templates/default-shared-lib.git",
   "description": "A default executable for C/C++ projects"
 }

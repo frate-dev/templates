@@ -1,21 +1,21 @@
 [
   {
-    "git": "https://github.com/frate-dev/default-executable.git",
+    "git": "https://github.com/frate-templates/default-executable.git",
     "description": "A default executable for C/C++ projects",
     "name": "executable"
   },
   {
-    "git": "https://github.com/frate-dev/default-executable.git",
+    "git": "https://github.com/frate-templates/default-executable.git",
     "description": "A default executable for C/C++ projects",
     "name": "static-lib"
   },
   {
-    "git": "https://github.com/frate-dev/default-executable.git",
+    "git": "https://github.com/frate-templates/default-executable.git",
     "description": "A default executable for C/C++ projects",
     "name": "shared-lib"
   },
   {
-    "git": "https://github.com/frate-dev/default-executable.git",
+    "git": "https://github.com/frate-templates/default-executable.git",
     "description": "A default executable for C/C++ projects",
     "name": "header-only"
   }
