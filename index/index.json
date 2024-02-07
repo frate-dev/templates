@@ -1,26 +1,51 @@
 [
   {
-    "git": "https://github.com/frate-templates/default-header-only.git",
-    "description": "A default executable for C/C++ projects",
-    "name": "header-only",
-    "latest_hash": "72ad10f59dcd01c96f745e2be9de9c47e8433c8d"
-  },
-  {
     "git": "https://github.com/frate-templates/default-executable.git",
     "description": "A default executable for C/C++ projects",
     "name": "executable",
-    "latest_hash": "4b22963851376c66235add2cdd61b2b143366ee3"
+    "head": "4b22963851376c66235add2cdd61b2b143366ee3",
+    "branches": {
+      "dev": "7b3424344f510ba1730e131bf0bd3862d4855b07",
+      "main": "4b22963851376c66235add2cdd61b2b143366ee3"
+    }
   },
   {
     "git": "https://github.com/frate-templates/default-static-lib.git",
     "description": "A default executable for C/C++ projects",
     "name": "static-lib",
-    "latest_hash": "63daebe83172b35defce96f6e6258e63e2c447c2"
+    "head": "63daebe83172b35defce96f6e6258e63e2c447c2",
+    "branches": {
+      "dev": "5469f48cc3016933d8c83c5d89627bd01283f626",
+      "main": "63daebe83172b35defce96f6e6258e63e2c447c2"
+    }
   },
   {
     "git": "https://github.com/frate-templates/default-shared-lib.git",
     "description": "A default executable for C/C++ projects",
     "name": "shared-lib",
-    "latest_hash": "4896a131e64c58935443a3117ef27be95b5a1513"
+    "head": "4896a131e64c58935443a3117ef27be95b5a1513",
+    "branches": {
+      "dev": "dda4c0da03e87b4bfa9a519f91eaec2455317687",
+      "main": "4896a131e64c58935443a3117ef27be95b5a1513"
+    }
+  },
+  {
+    "git": "https://github.com/frate-templates/default-header-only.git",
+    "description": "A default executable for C/C++ projects",
+    "name": "header-only",
+    "head": "72ad10f59dcd01c96f745e2be9de9c47e8433c8d",
+    "branches": {
+      "dev": "cbcd6d2567a2d4cc1143073adfcfd4a73c78cfd0",
+      "main": "72ad10f59dcd01c96f745e2be9de9c47e8433c8d"
+    }
+  },
+  {
+    "git": "https://github.com/frate-templates/default-ffi-rust-cxx.git",
+    "description": "A default ffi  lib project for C/C++ and rust projects",
+    "name": "rust-ffi-cxx",
+    "head": "f7a428e6a1193eba2f3815652f68fbf0b1fbc58d",
+    "branches": {
+      "main": "f7a428e6a1193eba2f3815652f68fbf0b1fbc58d"
+    }
   }
 ]
