@@ -45,7 +45,7 @@
     "name": "rust-ffi-cxx",
     "head": "05d7252a3bda260eb22fe00973ffe13d69f0d433",
     "branches": {
-      "dev": "afe9f36b6c826bab69a597f9e3aa633d2b421db4",
+      "dev": "5d6819fb66043da0d4a95ef61a428fce4081d0b9",
       "main": "05d7252a3bda260eb22fe00973ffe13d69f0d433"
     }
   }
