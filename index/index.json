@@ -45,7 +45,7 @@
     "name": "cxx-pyextension",
     "head": "7e7cda82d30c4aab42fb75dc0d4a7b815473d014",
     "branches": {
-      "dev": "2dc47ee4fa10ae0aef1364ba42f013277cb2d6e0",
+      "dev": "d06facf3c4faf939f288e57aba811f8e09d9fa07",
       "main": "7e7cda82d30c4aab42fb75dc0d4a7b815473d014"
     }
   },
