@@ -40,6 +40,15 @@
     }
   },
   {
+    "git": "https://github.com/frate-templates/default-cxx-pyextension",
+    "description": "C++ Python extension template",
+    "name": "cxx-pyextension",
+    "head": "7e7cda82d30c4aab42fb75dc0d4a7b815473d014",
+    "branches": {
+      "main": "7e7cda82d30c4aab42fb75dc0d4a7b815473d014"
+    }
+  },
+  {
     "git": "https://github.com/frate-templates/default-ffi-rust-cxx.git",
     "description": "A default ffi  lib project for C/C++ and rust projects",
     "name": "rust-ffi-cxx",
