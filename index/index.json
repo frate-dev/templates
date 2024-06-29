@@ -53,7 +53,7 @@
     "git": "https://github.com/frate-templates/default-ffi-rust-cxx.git",
     "description": "A default ffi  lib project for C/C++ and rust projects",
     "name": "rust-ffi-cxx",
-    "head": "a93501374dd2414331b40cd5df61f066903e7cc8",
+    "head": "",
     "branches": {
       "dev": "5d6819fb66043da0d4a95ef61a428fce4081d0b9",
       "main": "a93501374dd2414331b40cd5df61f066903e7cc8"
